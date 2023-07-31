@@ -33,7 +33,8 @@ Com o objetivo de facilitar esta conta, você deverá criar uma pequena aplicaç
   A API pode ser acessada via Postman ou outro aplicativo de teste de API 
   URL: [http://localhost:8080/api/v1/fairShareEats/calculateFairShareEatsByPerson](http://localhost:8080/api/v1/fairShareEats/calculateFairShareEatsByPerson)
 Método: POST
-Request body exemplo:
+Request body exemplo
+```json
 {
     "orderByPerson": [
         {
@@ -62,4 +63,4 @@ Request body exemplo:
     "shipping": 8,
     "discount": 20
 }
-  
+ ``` 
