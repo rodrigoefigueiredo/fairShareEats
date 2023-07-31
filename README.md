@@ -38,23 +38,23 @@ Request body exemplo
 {
     "orderByPerson": [
         {
-            "personName": "João",
+            "personName": "Pessoa 1",
             "items": [
                 {
-                    "name": "Hamburger",
+                    "name": "Item 1",
                     "price": 40
                 },
                 {
-                    "name": "Sobremesa",
+                    "name": "Item 2",
                     "price": 2.00
                 }
             ]
         },
         {
-            "personName": "Pedro",
+            "personName": "Pessoa 2",
             "items": [
                 {
-                    "name": "Sanduíche",
+                    "name": "Item 1",
                     "price": 8
                 }
             ]
